@@ -59,21 +59,21 @@ const Addplayer =({setplayerData,playerData,updateErr})=>{
             console.log('firstname')
             seterrMsg(prevState => ({
                 ...prevState,
-                firstnameErr: "* First name empty"
+                firstnameErr: "* First should not be name empty"
             }));
         } 
         if(lastname === ""){
             console.log('lastname')
             seterrMsg(prevState => ({
                 ...prevState,
-                lastnameErr: "* last name empty"
+                lastnameErr: "* last should not be name empty"
             }));
         } 
         if(height === ""){
             console.log('height')
             seterrMsg(prevState => ({
                 ...prevState,
-                heightErr: "* Height empty"
+                heightErr: "* Height should not be empty"
             }));
             
         } 
@@ -81,7 +81,7 @@ const Addplayer =({setplayerData,playerData,updateErr})=>{
             console.log('positions')
             seterrMsg(prevState => ({
                 ...prevState,
-                positionsErr: "* Position empty"
+                positionsErr: "* Position should not be empty"
             }));
         }
 
