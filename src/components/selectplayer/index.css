@@ -1,0 +1,26 @@
+.first-quarter-box{
+    height: 83vh;
+}
+.mar-row{
+    margin-bottom: 1rem;
+}
+
+.mar-col{
+    margin-bottom: 0.5rem;
+}
+.selectplayer-save{
+    
+       
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 0 1rem 0;
+    
+}
+.select-dd-err-border .css-1s2u09g-control{
+    border-color: red !important;
+}
+.ant-message-custom-content .ant-message-success{
+    display: flex;
+    align-items: center;
+}

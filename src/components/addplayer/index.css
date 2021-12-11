@@ -1,0 +1,40 @@
+.addplayer-save{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2rem 0 1rem 0;
+}
+.input-style{
+    height: 73vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 0 0rem 0.3rem;
+}
+.custom-input-style{
+    margin-bottom:0.8rem;
+}
+.heading-style{
+    color:gray;
+    margin-bottom: 0.2rem;
+}
+.input-tag-width{
+    width: 50%;
+}
+.err-style{
+    margin-left: 1rem;
+    color: red;
+}
+.dropdown-style{
+    display: flex;
+    align-items: center;
+}
+.err-color{
+    border-color: red;
+}
+.dd-err .css-1s2u09g-control{
+    border-color: red !important;
+}
+.feet{
+    font-size: 0.8rem;
+}
